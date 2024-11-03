@@ -199,6 +199,10 @@ footer.copyright {
 	text-align: center;
 	padding-bottom: 50px;
 	font-size: 12px;
+
+	@media (max-width: 1510px) {
+		padding-bottom: 0px;
+	}
 }
 
 footer.author {
@@ -213,5 +217,10 @@ footer.author {
 
 	p {
 		margin: 4px 0;
+	}
+
+	@media (max-width: 1510px) {
+		position: relative;
+		text-align: center;
 	}
 }

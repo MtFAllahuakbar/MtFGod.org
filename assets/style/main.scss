@@ -1,7 +1,6 @@
 $blue: #b7e2fb;
 $pink: #fecadc;
 $minWidth: 800px;
-$pd: 15px;
 
 html,
 body {
@@ -128,6 +127,7 @@ main {
 			flex-wrap: wrap;
 			margin: 20px 0;
 
+			$pd: 15px;
 			.item {
 				flex: 1;
 				background: rgba(255, 255, 255, 0.1);

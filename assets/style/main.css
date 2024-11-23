@@ -214,6 +214,7 @@ footer.author p {
   footer.author {
     position: relative;
     text-align: center;
+    right: 0;
   }
 }
 
